@@ -1,0 +1,12 @@
+services:
+  hugo:
+    image: hugomods/hugo:latest
+    # Evita problemas de permissão mapeando o seu usuário atual do Linux
+    user: "${UID}:${GID}"
+    ports:
+      - "1313:1313"
+    volumes:
+      - .:/src
+    command: server --bind 0.0.0.0 --buildDrafts --buildFuture
+    environment:
+      - HUGO_ENV=development

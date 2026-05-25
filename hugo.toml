@@ -1,0 +1,15 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'pt-br'
+title = 'Meu Blog Minimalista'
+theme = 'paper'
+
+[params]
+  # Configurações do tema Paper para um visual limpo
+  avatar = ""
+  name = "Seu Nome"
+  bio = "Escrevendo sobre crônicas, pensamentos e o cotidiano."
+  
+  # Redes sociais opcionais (deixe em branco se não quiser)
+  twitter = ""
+  github = ""
+  instagram = ""
