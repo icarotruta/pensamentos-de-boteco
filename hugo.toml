@@ -1,15 +1,34 @@
 baseURL = 'http://localhost:1313/'
-languageCode = 'pt-br'
-title = 'Meu Blog Minimalista'
-theme = 'paper'
+languageCode = "pt-br"
+title = 'Pensamentos de Boteco'
+theme = 'ink'
 
 [params]
-  # Configurações do tema Paper para um visual limpo
-  avatar = ""
-  name = "Seu Nome"
-  bio = "Escrevendo sobre crônicas, pensamentos e o cotidiano."
-  
-  # Redes sociais opcionais (deixe em branco se não quiser)
-  twitter = ""
-  github = ""
-  instagram = ""
+  author = 'Icarotruta'
+  description = 'Escrevendo sobre crônicas, pensamentos e o cotidiano.'
+  homeTitle = 'Pensamentos de Boteco'
+  homeSubtitle = 'Crônicas e pensamentos do cotidiano'
+  homeBio = 'Textos breves, pensamentos e histórias de boteco.'
+  homeImage = '/images/avatar.png'
+  recentPostsCount = 5
+
+  [[params.socialLinks]]
+    name = 'Blog'
+    url = '/posts/'
+    external = false
+
+[menu]
+  [[menu.main]]
+    name = 'Blog'
+    url = '/posts/'
+    weight = 1
+
+[outputs]
+  home = ['HTML', 'RSS', 'llmstxt', 'JSON']
+
+[outputFormats.llmstxt]
+  mediaType = 'text/plain'
+  baseName = 'llms'
+  isPlainText = true
+  notAlternative = true
+theme = "ink"

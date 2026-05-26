@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pensamentos de Boteco</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Escrevendo sobre crônicas, pensamentos e o cotidiano.</description>
+    <generator>Hugo 0.161.1</generator>
+    <language>en</language>
+    <managingEditor>Icarotruta</managingEditor>
+    <lastBuildDate>Tue, 26 May 2026 01:35:10 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>O Primeiro Gole De Um Codigo Limpo</title>
+      <link>http://localhost:1313/posts/o-primeiro-gole-de-um-codigo-limpo/</link>
+      <pubDate>Tue, 26 May 2026 01:35:10 +0000</pubDate>
+      <guid>http://localhost:1313/posts/o-primeiro-gole-de-um-codigo-limpo/</guid>
+      <description><![CDATA[<p>Dizem que a persistência é a virtude dos fortes, mas no fundo é só a teimosia de quem não aceita levar rasteira de permissão de arquivo. Depois de domar o Docker, pacotear o tema com Regex e garantir que o Chibi ficasse devidamente trajado de short preto e tênis, o balcão finalmente está aberto.</p>
+<p>Nem só de crônicas viverá este espaço; às vezes, a melhor engenharia é aquela que a gente faz para simplificar a vida e focar no que realmente importa: a próxima linha, a próxima história e a saideira. Tim-tim! 🍻💻</p>
+]]></description>
+    </item>
+    <item>
+      <title>Copos Cheios Coracoes Vazios</title>
+      <link>http://localhost:1313/posts/copos-cheios-coracoes-vazios/</link>
+      <pubDate>Mon, 25 May 2026 15:46:32 +0000</pubDate>
+      <guid>http://localhost:1313/posts/copos-cheios-coracoes-vazios/</guid>
+      <description><![CDATA[<p>Na geografia de um balcão, toda linha reta vira curva após o terceiro copo. A gente senta procurando respostas e levanta aceitando que as perguntas são muito mais interessantes.</p>
+<p>Se tiver uma foto daquela mesa de madeira riscada ou do reflexo do neon na calçada, joga ela na pasta que o script faz a mágica! 🍻📸</p>
+]]></description>
+    </item>
+    <item>
+      <title>A Vida Nao Tem Manual Mas O Boteco Tem Balcao</title>
+      <link>http://localhost:1313/posts/a-vida-nao-tem-manual-mas-o-boteco-tem-balcao/</link>
+      <pubDate>Mon, 25 May 2026 14:37:50 +0000</pubDate>
+      <guid>http://localhost:1313/posts/a-vida-nao-tem-manual-mas-o-boteco-tem-balcao/</guid>
+      <description><![CDATA[<p>Tem dia que a cabeça ferve e a única solução é procurar um lugar onde a conversa é fiada e a cerveja é estritamente gelada. No balcão da vida, o importante não é o destino final, mas sim as histórias que a gente coleciona enquanto espera o garçom trazer a conta.</p>
+<p>Seja no café para acordar a mente ou no litrão para deslogar da rotina, que a nossa única trava seja a saideira. Saúde! 🍻☕</p>
+]]></description>
+    </item>
+    <item>
+      <title>O Pensamento E Livre O Litrao E Pago</title>
+      <link>http://localhost:1313/posts/o-pensamento-e-livre-o-litrao-e-pago/</link>
+      <pubDate>Mon, 25 May 2026 14:36:39 +0000</pubDate>
+      <guid>http://localhost:1313/posts/o-pensamento-e-livre-o-litrao-e-pago/</guid>
+      <description><![CDATA[<p>Certas verdades só ganham forma depois que o sol se esconde e a cadeira de plástico é arrastada para a calçada. Entre um petisco e outro, a gente vai consertando o mundo, sabendo muito bem que amanhã ele vai acordar quebrado de novo.</p>
+<p>Se a vida der limões, peça uma cachaça e gelo. E se der erro de permissão&hellip; a gente resolve antes do próximo gole! 🍻📝</p>
+]]></description>
+    </item>
+    <item>
+      <title>Fiado So Para Maiores De 90 Anos Acompanhados Dos Pais</title>
+      <link>http://localhost:1313/posts/fiado-so-para-maiores-de-90-anos-acompanhados-dos-pais/</link>
+      <pubDate>Mon, 25 May 2026 14:35:14 +0000</pubDate>
+      <guid>http://localhost:1313/posts/fiado-so-para-maiores-de-90-anos-acompanhados-dos-pais/</guid>
+      <description><![CDATA[<p>Entre um gole de café, uma crônica esquecida e o balcão do boteco, a vida vai se escrevendo. Dizem que quem não senta pra ouvir uma boa história, acaba virando personagem de uma piada ruim.</p>
+<p>Garçom, traz mais uma rodada de ideias, que a noite é longa e o servidor já tá de pé! 🍻</p>
+]]></description>
+    </item>
+  </channel>
+</rss>

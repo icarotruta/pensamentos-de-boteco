@@ -1,0 +1,67 @@
+/* Custom styles para o Boteco Blog */
+
+/* Banner no topo da página */
+.banner-container {
+  width: 100%;
+  height: 200px;
+  margin: -8px -8px 0 -8px;
+  overflow: hidden;
+  background: url('/images/banner-boteco.jpg') center / cover no-repeat;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    height: 120px;
+  }
+}
+
+/* Avatar - aumentar tamanho e melhorar apresentação */
+.avatar-img {
+  border: 3px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.avatar-img:hover {
+  transform: scale(1.05);
+}
+
+/* Melhorias no layout geral */
+body {
+  background: #faf8f1;
+}
+
+/* Ajuste para dark mode */
+html.dark {
+  background: #1a1a1a;
+}
+
+/* Posts com melhor espaçamento */
+article {
+  margin-top: 2rem;
+}
+
+/* Links com melhor destaque */
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+/* Typography melhorada */
+h1, h2, h3 {
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1em;
+}

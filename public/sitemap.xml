@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/posts/o-primeiro-gole-de-um-codigo-limpo/</loc>
+    <lastmod>2026-05-26T01:35:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-05-26T01:35:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-05-26T01:35:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/copos-cheios-coracoes-vazios/</loc>
+    <lastmod>2026-05-25T15:46:32+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/a-vida-nao-tem-manual-mas-o-boteco-tem-balcao/</loc>
+    <lastmod>2026-05-25T14:37:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/o-pensamento-e-livre-o-litrao-e-pago/</loc>
+    <lastmod>2026-05-25T14:36:39+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/fiado-so-para-maiores-de-90-anos-acompanhados-dos-pais/</loc>
+    <lastmod>2026-05-25T14:35:14+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>

@@ -2,7 +2,7 @@ services:
   hugo:
     image: hugomods/hugo:latest
     # Evita problemas de permissão mapeando o seu usuário atual do Linux
-    user: "${UID}:${GID}"
+    user: "${CURRENT_USER}"
     ports:
       - "1313:1313"
     volumes:

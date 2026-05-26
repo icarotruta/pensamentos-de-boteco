@@ -1,0 +1,17 @@
+{{- $date := .Date -}}
+{{- $months := dict
+  "January" "janeiro"
+  "February" "fevereiro"
+  "March" "março"
+  "April" "abril"
+  "May" "maio"
+  "June" "junho"
+  "July" "julho"
+  "August" "agosto"
+  "September" "setembro"
+  "October" "outubro"
+  "November" "novembro"
+  "December" "dezembro"
+-}}
+{{- $month := index $months ($date.Format "January") -}}
+{{- printf "%s de %s de %s" ($date.Format "2") $month ($date.Format "2006") -}}
