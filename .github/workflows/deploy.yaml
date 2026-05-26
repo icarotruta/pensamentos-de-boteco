@@ -40,12 +40,12 @@ jobs:
       - name: Download Theme
         run: |
           mkdir -p themes
-          git clone https://github.com/nanxiaobei/hugo-ink themes/ink
+          git clone https://github.com/vinooganesh/hugo-ink.git themes/ink
 
       # Se você tiver scripts que ajustam o tema (como o patch do Python), pode rodá-lo aqui se quiser,
       # mas o mais limpo é apenas rodar o build do Hugo apontando para a URL correta:
       - name: Build Static Site
-        run: hugo --minify --baseURL "${{ steps: pages.outputs.base_url }}/"
+        run: hugo --minify --baseURL "${{ steps.pages.outputs.page_url }}/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
