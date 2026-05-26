@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://icarotruta.github.io/pensamentos-de-boteco/'
 languageCode = "pt-br"
 title = 'Pensamentos de Boteco'
 theme = 'ink'
