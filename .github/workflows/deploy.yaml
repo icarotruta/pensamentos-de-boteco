@@ -47,7 +47,12 @@ jobs:
       # Se você tiver scripts que ajustam o tema (como o patch do Python), pode rodá-lo aqui se quiser,
       # mas o mais limpo é apenas rodar o build do Hugo apontando para a URL correta:
       - name: Build Static Site
-        run: hugo --minify --baseURL "${{ steps.pages.outputs.page_url }}/"
+        run: |
+          if [ -n "${{ steps.pages.outputs.page_url }}" ]; then
+            hugo --minify --baseURL "${{ steps.pages.outputs.page_url }}/"
+          else
+            hugo --minify
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

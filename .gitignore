@@ -2,6 +2,8 @@
 .hugo_build.lock
 resources/
 public/
+public2/
+backup/
 
 # Pastas temporárias de rascunhos locais (seus posts já processados somem daqui)
 novos-posts/*

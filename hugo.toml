@@ -1,7 +1,9 @@
 baseURL = 'https://icarotruta.github.io/pensamentos-de-boteco/'
-languageCode = "pt-br"
+defaultContentLanguage = 'pt-br'
+locale = 'pt-br'
 title = 'Pensamentos de Boteco'
 theme = 'ink'
+canonifyURLs = true
 
 [params]
   author = 'Icarotruta'
@@ -31,4 +33,3 @@ theme = 'ink'
   baseName = 'llms'
   isPlainText = true
   notAlternative = true
-theme = "ink"
