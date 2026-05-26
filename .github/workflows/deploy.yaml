@@ -29,6 +29,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: github-actions
 
       # Aqui entra a mágica: o GitHub vai rodar o mesmo Hugo que você usa
       - name: Build with Hugo
