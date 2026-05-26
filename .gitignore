@@ -1,0 +1,14 @@
+# Cache, travas e arquivos locais do Hugo
+.hugo_build.lock
+resources/
+public/
+
+# Pastas temporárias de rascunhos locais (seus posts já processados somem daqui)
+novos-posts/*
+!novos-posts/.gitkeep
+
+# Arquivos de sistema e editores
+.DS_Store
+.vscode/
+.idea/
+*.log
