@@ -1,0 +1,64 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches:
+      - main # Dispara o deploy sempre que entrar algo na main
+  workflow_dispatch: # Permite disparar o deploy manualmente pelo painel do GitHub
+
+# Define as permissões necessárias para o token do GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Garante que deploys simultâneos não se atropelem
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: false # Não precisamos de submódulos já que clonamos o tema via script
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      # Aqui entra a mágica: o GitHub vai rodar o mesmo Hugo que você usa
+      - name: Build with Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+
+      # Como o GitHub Actions roda em um ambiente limpo, precisamos baixar o tema antes do build
+      - name: Download Theme
+        run: |
+          mkdir -p themes
+          git clone https://github.com/nanxiaobei/hugo-ink themes/ink
+
+      # Se você tiver scripts que ajustam o tema (como o patch do Python), pode rodá-lo aqui se quiser,
+      # mas o mais limpo é apenas rodar o build do Hugo apontando para a URL correta:
+      - name: Build Static Site
+        run: hugo --minify --baseURL "${{ steps: pages.outputs.base_url }}/"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps: deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
